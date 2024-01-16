@@ -1,3 +1,5 @@
+// Program to determine whether a given number is a Disarium number
+
 var calculateSumOfPowerDigits = function(n) {
     let dtos = n.toString();
     let ln = dtos.length;
