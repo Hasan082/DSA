@@ -16,10 +16,17 @@ var calculateSumOfPowerDigits = function(n) {
 
         sum += poweredDigit;
     }
-
-    return sum;
+    if(n===sum){
+        console.log(sum);
+        return true;
+    }else {
+        return false;
+    }
 };
 
-let result = calculateSumOfPowerDigits(48);
+let result = calculateSumOfPowerDigits(15);
 console.log(result); // Output: 175 (1^1 + 7^2 + 5^3)
 
+for (let i = 1; i <= 200; i++){
+    calculateSumOfPowerDigits(i);
+}
