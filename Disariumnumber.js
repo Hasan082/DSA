@@ -5,6 +5,9 @@
  *
  * @param {number} n - The number for which the sum of the power of its digits needs to be calculated.
  * @return {boolean} Returns true if the sum of the power of the digits is equal to the original number, otherwise returns false.
+ * For the number 135, the function calculates 1^1 + 3^2 + 5^3 = 1 + 9 + 125 = 135. Since 135 is equal to the original number 135, it returns true.
+ * For the number 175, the function calculates 1^1 + 7^2 + 5^3 = 1 + 49 + 125 = 175. Since 175 is equal to the original number 175, it returns true.
+
  */
 var calculateSumOfPowerDigits = function(n) {
     let dtos = n.toString();

@@ -1,4 +1,10 @@
-// Count the number of digit
+
+/**
+ * Counts the number of digits in a given number.
+ *
+ * @param {number} number - The number whose digits are to be counted.
+ * @return {number} The number of digits in the given number.
+ */
 function countDigits(number) {
     // Handle the case when the number is 0 separately
     if (number === 0) {
