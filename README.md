@@ -7,3 +7,6 @@
 ### Find the A happy number
 ### Program to determine whether a given number is a Harshad number
 ### Program to print all Pronic numbers between 1 to 100
+
+#### Java Leetcode
+Leetcode 1859 Sorting the Sentence
