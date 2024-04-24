@@ -9,4 +9,5 @@
 ### Program to print all Pronic numbers between 1 to 100
 
 #### Java Leetcode
-Leetcode 1859 Sorting the Sentence
+1. Leetcode 1859 Sorting the Sentence
+2. Leetcode 1844 Sorting the Sentence
