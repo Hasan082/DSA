@@ -2,6 +2,7 @@ package dsaJava;
 
 public class leetcode2000 {
     public static String reversePrefix(String word, char ch) {
+        char[] c = word.toCharArray();
         int findIndex = word.indexOf(ch);
         if(findIndex != -1){
             StringBuilder half = new StringBuilder(word.substring(0, findIndex + 1));

@@ -11,3 +11,4 @@
 #### Java Leetcode
 1. Leetcode 1859 Sorting the Sentence
 2. Leetcode 1844 Sorting the Sentence
+3. Leetcode 2000 Sorting the Sentence
