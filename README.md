@@ -20,4 +20,5 @@
 7.  Leetcode 2255 
 8.  Leetcode 1455 
 9.  Leetcode 1351 
-10. Leetcode 2559 
+10. Leetcode 2559
+11. Leetcode 1295
