@@ -9,6 +9,7 @@ public class leetcode1684 {
         }
         return true;
     }
+
     public static int countConsistentStrings(String allowed, String[] words) {
         int count = 0;
         for (String word : words) {
@@ -18,8 +19,9 @@ public class leetcode1684 {
         }
         return count;
     }
+
     public static void main(String[] args) {
-        String[] a = {"n","eeitfns","eqqqsfs","i","feniqis","lhoa","yqyitei","sqtn","kug","z","neqqis"};
-        System.out.println(countConsistentStrings("fstqyienx", a));
+        String[] a = { "n", "eeitfns", "eqqqsfs", "i", "feniqis", "lhoa", "yqyitei", "sqtn", "kug", "z", "neqqis" };
+        System.out.println(countConsistentStrings("fstqyienx", a)); // output 8
     }
 }
