@@ -11,12 +11,13 @@
 
 ### Java Leetcode
 #### String and Array
-1.  Leetcode 1859 Sorting the Sentence
-2.  Leetcode 1844 Sorting the Sentence
-3.  Leetcode 2000 Sorting the Sentence
-4.  Leetcode 1684 Sorting the Sentence
-5.  Leetcode 1967 Sorting the Sentence
-6.  Leetcode 2185 Sorting the Sentence
-7.  Leetcode 2255 Sorting the Sentence
-8.  Leetcode 1455 Sorting the Sentence
-9.  Leetcode 1351 Sorting the Sentence
+1.  Leetcode 1859 
+2.  Leetcode 1844 
+3.  Leetcode 2000 
+4.  Leetcode 1684 
+5.  Leetcode 1967 
+6.  Leetcode 2185 
+7.  Leetcode 2255 
+8.  Leetcode 1455 
+9.  Leetcode 1351 
+10. Leetcode 2559 
