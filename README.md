@@ -25,6 +25,7 @@
 12. Leetcode 1051
 13. Leetcode 1512
 14. Leetcode 1662
+15. leetcode 2418
 
 
 ### Python leetcode
