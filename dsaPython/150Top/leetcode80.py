@@ -1,7 +1,13 @@
 def removeDuplicates(nums):
-    count = 1
-    for i in range(1, len(nums)):
-        if count == 1 or nums[i] != nums[count - 2]:
-            nums[count] = nums[i]
-            count += 1
-    return count
+    if len(nums) <=2:
+        return len(nums)
+
+    slow = 2
+
+    for fast in range(2, len(nums)):
+        if nums[slow] != nums[fast-2]:
+            nums[slow] = nums[fast]
+            slow += 1
+
+    return slow
+
