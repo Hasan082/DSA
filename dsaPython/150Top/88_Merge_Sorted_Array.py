@@ -16,4 +16,5 @@ numsArr2 = [2, 5, 6]
 n1 = 3
 
 result = Solution()
+
 result.merge(numsArr1, m1, numsArr2, n1)
