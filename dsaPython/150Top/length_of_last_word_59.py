@@ -9,3 +9,6 @@ res = Solution()
 print(res.lengthOfLastWord("Hello World"))  # 5
 print(res.lengthOfLastWord("   fly me   to   the moon  "))  # 4
 print(res.lengthOfLastWord("luffy is still joyboy"))  # 6
+
+
+
