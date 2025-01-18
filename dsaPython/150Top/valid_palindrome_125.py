@@ -5,5 +5,6 @@ class Solution:
 
 
 res = Solution()
+
 print(res.isPalindrome("A man, a plan, a canal: Panama"))  # True
 print(res.isPalindrome("race a car"))  # False
