@@ -12,4 +12,13 @@ class Solution:
         return self.isHappy(t_sum)
 
 
-
+s = Solution()
+print(s.isHappy(19))  # True
+print(s.isHappy(2))  # False
+print(s.isHappy(3))  # False
+print(s.isHappy(4))  # False
+print(s.isHappy(5))  # False
+print(s.isHappy(6))  # False
+print(s.isHappy(7))  # True
+print(s.isHappy(8))  # False
+print(s.isHappy(9))  # False
