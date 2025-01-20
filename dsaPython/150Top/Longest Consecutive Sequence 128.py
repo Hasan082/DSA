@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if not nums:
@@ -18,3 +21,9 @@ class Solution:
                 longest_streak = max(longest_streak, current_streak)
 
         return longest_streak
+
+
+nums1 = [100, 4, 200, 1, 3, 2]
+nums2 = [0, 3, 7, 2, 5, 8, 4, 6, 0, 1]
+print(Solution().longestConsecutive(nums1))  # 4
+print(Solution().longestConsecutive(nums2)) # 9
