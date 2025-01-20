@@ -18,6 +18,6 @@ def groupAnagrams(strs: List[str]) -> List[List[str]]:
 strs1 = ["eat", "tea", "tan", "ate", "nat", "bat"]
 strs2 = [""]
 strs3 = ["a"]
-print(groupAnagrams(strs1))
-print(groupAnagrams(strs2))
-print(groupAnagrams(strs3))
+print(groupAnagrams(strs1))  # [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
+print(groupAnagrams(strs2))  # [['']]
+print(groupAnagrams(strs3))  # [['a']]
