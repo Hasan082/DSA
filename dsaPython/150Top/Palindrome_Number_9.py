@@ -4,6 +4,8 @@ def isPalindrome(self, x: int) -> bool:
         return True
     else:
         return False
+
+
 x1 = 121
 x2 = -121
 x3 = 10
