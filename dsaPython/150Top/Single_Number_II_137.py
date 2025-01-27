@@ -11,8 +11,8 @@ def singleNumber(nums: List[int]) -> int:
     return res
 
 
-nums1 = [2,2,3,2]
-nums2 = [0,1,0,1,0,1,99]
+nums1 = [2, 2, 3, 2]
+nums2 = [0, 1, 0, 1, 0, 1, 99]
 
 print(singleNumber(nums1))
 print(singleNumber(nums2))
