@@ -2,13 +2,15 @@ from typing import List
 from collections import Counter
 
 
-def singleNumber(nums: List[int]) -> int:
-    counter = Counter(nums)
-    res = 0
-    for key, val in counter.items():
-        if val == 1:
-            res ^= key
-    return res
+def singleNumber(self, nums: List[int]) -> int:
+    ones, twos, threes = 0, 0, 0
+    for num in nums:
+        twos |= ones & num
+        ones ^= num
+        threes = ones & twos
+        ones &= ~threes
+        twos &= ~ threes
+    return ones
 
 
 nums1 = [2, 2, 3, 2]
