@@ -7,3 +7,4 @@ def combine(n: int, k: int) -> List[List[int]]:
 
 
 print(combine(4, 2))
+print(combine(1, 1))
