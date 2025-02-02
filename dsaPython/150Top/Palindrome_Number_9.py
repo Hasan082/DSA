@@ -1,9 +1,7 @@
-def isPalindrome(self, x: int) -> bool:
-    s = str(x)
-    if s == s[::-1]:
-        return True
-    else:
+def isPalindrome(x: int) -> bool:
+    if x < 0:
         return False
+    return str(x) == str(x)[::-1]
 
 
 x1 = 121
