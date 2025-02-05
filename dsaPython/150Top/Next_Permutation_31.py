@@ -1,7 +1,7 @@
 from typing import List
 
 
-def nextPermutation(self, nums: List[int]) -> None:
+def nextPermutation(nums: List[int]) -> None:
     """
     Do not return anything, modify nums in-place instead.
     """
@@ -19,3 +19,9 @@ def nextPermutation(self, nums: List[int]) -> None:
     nums[i + 1:] = reversed(nums[i + 1:])
 
     return nums
+
+
+nums1 = [1,2,3]
+nums2 = [3,2,1]
+print(nextPermutation(nums1))
+print(nextPermutation(nums2))
