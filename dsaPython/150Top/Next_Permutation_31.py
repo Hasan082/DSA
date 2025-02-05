@@ -21,7 +21,7 @@ def nextPermutation(nums: List[int]) -> None:
     return nums
 
 
-nums1 = [1,2,3]
-nums2 = [3,2,1]
+nums1 = [1, 2, 3]
+nums2 = [3, 2, 1]
 print(nextPermutation(nums1))
 print(nextPermutation(nums2))
