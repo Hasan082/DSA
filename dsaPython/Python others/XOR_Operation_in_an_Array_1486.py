@@ -5,7 +5,7 @@ def xorOperation(n: int, start: int) -> int:
         start = start + 2
     return res
 
+
 n = 5
 start = 0
 print(xorOperation(n, start)) # 8
-
