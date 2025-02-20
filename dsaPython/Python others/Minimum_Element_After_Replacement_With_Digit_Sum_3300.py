@@ -8,3 +8,7 @@ def convert_num( digit):
 
 def minElement(nums: List[int]) -> int:
     return min(convert_num(num) for num in nums)
+
+nums = [10,12,13,14]
+
+print(minElement(nums)) # 1
