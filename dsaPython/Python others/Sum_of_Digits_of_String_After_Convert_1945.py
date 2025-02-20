@@ -6,3 +6,8 @@ def getLucky(s: str, k: int) -> int:
     for _ in range(k):
         num_str = str(helper(num_str))
     return int(num_str)
+
+
+print(getLucky("iiii", 1)) # 36
+print(getLucky("leetcode", 2)) # 6
+print(getLucky("zbax", 2)) # 8
