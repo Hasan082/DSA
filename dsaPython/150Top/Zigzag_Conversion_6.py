@@ -16,3 +16,11 @@ def convert(s, numRows):
 
     return "".join(res)
 
+
+s = "PAYPALISHIRING"
+numRows = 3
+print(convert(s, numRows)) # "PAHNAPLSIIGYIR"
+numRows = 4
+print(convert(s, numRows)) # "PINALSIGYAHRPI"
+numRows = 5
+print(convert(s, numRows)) # "PHASIYIRPLIGAN"
