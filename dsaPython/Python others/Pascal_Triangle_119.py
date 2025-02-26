@@ -11,3 +11,9 @@ def getRow(rowIndex: int) -> List[int]:
         res.append(temp)
     return res[-1]
 
+rowIndex = 3
+print(getRow(rowIndex)) # [1,3,3,1]
+rowIndex = 0
+print(getRow(rowIndex)) # [1]
+rowIndex = 1
+print(getRow(rowIndex)) # [1,1]
