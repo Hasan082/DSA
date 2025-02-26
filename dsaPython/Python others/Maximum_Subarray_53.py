@@ -14,3 +14,5 @@ nums1 = [-2,1,-3,4,-1,2,1,-5,4]
 print(maxSubArray(nums1)) # 6
 nums2 = [1]
 print(maxSubArray(nums2)) # 1
+nums3 = [5,4,-1,7,8]
+print(maxSubArray(nums3)) # 23
