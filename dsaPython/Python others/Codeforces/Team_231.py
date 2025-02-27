@@ -7,4 +7,5 @@ for _ in range(time_operation):
     if a + b + c >= 2:
         count += 1
 
-print(count)   
+
+print(count)
