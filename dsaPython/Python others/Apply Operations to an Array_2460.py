@@ -14,3 +14,12 @@ def applyOperations(nums: List[int]) -> List[int]:
         nums[i] = 0
     
     return nums
+
+# Time complexity: O(n)
+# Space complexity: O(1)
+
+# Test case
+nums = [1,2,2,1,1,0]
+print(applyOperations(nums)) # [2, 2, 2, 0, 0, 0]
+nums = [0,1]
+print(applyOperations(nums)) # [1, 0]
