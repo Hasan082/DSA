@@ -1,5 +1,6 @@
 def secondHighest(s: str) -> int:
     res = []
+    
     for c in s:
         if c.isdigit() and int(c) not in res:
             res.append(int(c))
