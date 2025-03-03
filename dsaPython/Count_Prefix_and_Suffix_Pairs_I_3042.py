@@ -12,5 +12,6 @@ class Solution:
         return count
 
 
+
 s = Solution()
 print(s.countPrefixSuffixPairs("abc"))
