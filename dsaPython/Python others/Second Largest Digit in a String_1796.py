@@ -6,7 +6,9 @@ def secondHighest(s: str) -> int:
             res.append(int(c))
     res.sort()
     return res[-2] if len(res) > 1 else -1
+    
 
 s = "dfa12321afd"
+
 
 print(secondHighest(s)) # 2
