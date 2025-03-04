@@ -16,7 +16,11 @@ print(f"{var:<20}:") # make space after
 print(f"{var:^20}:") # make both side and text is middle
 
 
+
+
+
 # TRICKS 3 DATETIME
+
 from datetime import datetime
 
 now: datetime = datetime.now()
@@ -27,3 +31,11 @@ print(f"{now:%d.%m.%Y (%H.%M.%S)}") # by '(%H.%M.%S)' Hour minute sec
 print(f"{now:%c}") # Full Specification about date
 print(f"{now:%I%p}") # Date and TIME AM/PM formate
 
+
+
+# TRICKS 4 DATETIME
+
+num: float = 1234.56789
+print(f"{num:.2f}") # 2 decimal point similar as round(num, 2)
+print(f"{num:,.2f}") # 2 decimal point with thousedn separator
+print(f"{num:.0f}") # print the integer part only
