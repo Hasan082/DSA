@@ -39,3 +39,11 @@ print(numbers)
 
 
 
+# Counting Elements in a Loop
+
+import random
+
+values = [random.randint(1, 10) for _ in range(20)]
+count = sum(1 for value in values if (result := value) % 2 == 0)
+print("count: ", values)
+print("count: ", count)
