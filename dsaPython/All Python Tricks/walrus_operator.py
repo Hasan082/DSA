@@ -50,7 +50,7 @@ print("count: ", count)
 
 # Get Length While Assigning a Value
 
-if (length := len(items := input("Enter a coma separted value: ").split(',') > 3)):
+if (length := len(items := input("Enter a coma separted value: ").split(',')))  > 3:
      print(f"You entered {length} items, which is more than 3!")
 else:
     print(f"You entered {length} items.")
