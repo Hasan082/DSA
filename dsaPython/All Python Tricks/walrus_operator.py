@@ -13,3 +13,9 @@ while True:
 
 
 
+#Using warles Operator
+while not (num := input("Enter a vald Number: ")).isdigit():
+    print("You Put something else rather than a valid number")
+
+
+print(f"you put {num} using warles")
