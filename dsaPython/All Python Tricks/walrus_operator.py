@@ -28,3 +28,14 @@ while (name := input("Enter your name (min 3 characters): ")).strip() and len(na
     print("Name too short. Try again.")
 
 print(f"Welcome, {name}!")
+
+
+# List Filtering with Condition
+
+data = ["123", "abc", "456", "789", "xyz", "0"]
+
+numbers = [int(num) for item in data if (num := item).isdigit()]
+print(numbers)
+
+
+
