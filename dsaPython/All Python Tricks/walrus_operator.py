@@ -47,3 +47,10 @@ values = [random.randint(1, 10) for _ in range(20)]
 count = sum(1 for value in values if (result := value) % 2 == 0)
 print("count: ", values)
 print("count: ", count)
+
+# Get Length While Assigning a Value
+
+if (length := len(items := input("Enter a coma separted value: ").split(',') > 3)):
+     print(f"You entered {length} items, which is more than 3!")
+else:
+    print(f"You entered {length} items.")
