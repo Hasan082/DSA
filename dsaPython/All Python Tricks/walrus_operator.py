@@ -19,3 +19,12 @@ while not (num := input("Enter a vald Number: ")).isdigit():
 
 
 print(f"you put {num} using warles")
+
+
+
+#  Input Validation (Simple)
+
+while (name := input("Enter your name (min 3 characters): ")).strip() and len(name) < 3:
+    print("Name too short. Try again.")
+
+print(f"Welcome, {name}!")
