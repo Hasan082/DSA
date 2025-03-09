@@ -22,6 +22,8 @@ print(f"you put {num} using warles")
 
 
 
+
+
 #  Input Validation (Simple)
 
 while (name := input("Enter your name (min 3 characters): ")).strip() and len(name) < 3:
