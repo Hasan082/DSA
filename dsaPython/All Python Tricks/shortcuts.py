@@ -45,3 +45,10 @@ width, height = 500, 300
 width, height = height, width
 
 print(width, height)
+
+
+# Comprehension
+
+lst = [i for i in range(1, 100)]
+print(len(lst))
+print(lst)
