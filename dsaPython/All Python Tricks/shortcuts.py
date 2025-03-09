@@ -30,3 +30,18 @@ t, u = dic.items()
 print(t, u)
 x, y = coords
 print(x, y)
+
+
+
+# Multiple assignment and swap
+
+width, height = 500, 300
+
+# in other Langues swap
+# temp = width
+# width = height
+# height = temp
+# In python
+width, height = height, width
+
+print(width, height)
