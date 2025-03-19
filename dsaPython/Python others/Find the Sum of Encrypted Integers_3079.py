@@ -1,4 +1,4 @@
-def sumOfEncryptedInt(nums: List[int]) -> int:
+def sumOfEncryptedInt(nums):
         s = 0
         for num in nums:
             max_digit = max(str(num))
