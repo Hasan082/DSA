@@ -31,5 +31,6 @@ root = [10, 5, 15, 3, 7, None, 18]
 low = 7
 high = 15
 solution = Solution()
+
 print(solution.rangeSumBst(root, low, high))
         
