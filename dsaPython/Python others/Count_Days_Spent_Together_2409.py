@@ -26,4 +26,5 @@ arriveAlice2 = "10-01"
 leaveAlice2 = "10-31"
 arriveBob2= "11-01"
 leaveBob2 = "12-31"
+
 print(countDaysTogether(arriveAlice2, leaveAlice2, arriveBob2, leaveBob2))
