@@ -1,5 +1,6 @@
 .venv
 /.venv
+/studyplan.txt
 venv
 venv/
 __pycache__
