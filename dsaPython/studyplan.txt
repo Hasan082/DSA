@@ -1,3 +1,4 @@
 # Todo
 # https://leetcode.com/studyplan/introduction-to-pandas/
 # https://leetcode.com/studyplan/30-days-of-pandas/
+# https://www.youtube.com/watch?v=T0u5nwSA0w0
