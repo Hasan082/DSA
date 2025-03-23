@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def groupAnagrams(strs):
     maps = defaultdict(list)
 
