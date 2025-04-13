@@ -7,7 +7,6 @@ public class Multiplication_Table {
         for (int i = 1 ; i <= 12; i++) {
             System.out.println(t +" * " + i +" = " + (t * i));
         }
-
         scanner.close();
     }
 }

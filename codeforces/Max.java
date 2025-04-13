@@ -1,4 +1,3 @@
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Max {
@@ -13,5 +12,6 @@ public class Max {
             }
         }
         System.out.println(max);
+        scanner.close();
     }
 }
