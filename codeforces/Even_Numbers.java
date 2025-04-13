@@ -10,7 +10,6 @@ public class Even_Numbers {
                 System.out.println(i);
             };
         }
-        
         scanner.close();
     }
 }
