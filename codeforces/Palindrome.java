@@ -5,14 +5,13 @@ public class Palindrome {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
         int copy = t;
-        String s = "";
+        int rev = 0;
         while (t > 0) {
             int rem = t % 10;
             t /= 10;
-            s+=rem;
+            rev = rev * 10 + rem;
         }
 
-        int rev = Integer.parseInt(s);
         System.out.println(rev);
 
         if (rev == copy) System.out.println("YES");
