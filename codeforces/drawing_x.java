@@ -12,15 +12,8 @@ public class drawing_x {
             if (i == mid) {
                 line[i] = 'X';
             } else {
-                int left = i;
-                int right = n - i - 1;
-                if (i < mid) {
-                    line[left] = '\\';
-                    line[right] = '/';
-                } else {
-                    line[left] = '/';
-                    line[right] = '\\';
-                }
+                line[i] = '\\';
+                line[n - i - 1] = '/';
             }
             System.out.println(String.valueOf(line));
         }
