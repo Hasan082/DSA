@@ -6,18 +6,21 @@ public class SomeSums {
         int n = scanner.nextInt();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+        int sum = 0;
         for (int i = 1; i <= n; i++) {
             int temp = i;
-            while (temp > 9) {
-                int rem = i % 10;
+            int rem = 0;
+            while (temp > 0) {
+                rem = i % 10;
                 temp /= 10;
-                int sum = rem + temp;
-                System.out.println("sum: " + sum);
             }
-            if (a <= i & b >= i) {
-                System.err.println(i);
+            int temSUm = rem + temp;
+            if (a <= temSUm && b >= temSUm) {
+                System.out.println(i + " " + temSUm);
+                sum += i;
             }
         }
+        System.out.println(sum);
 
         scanner.close();
     }

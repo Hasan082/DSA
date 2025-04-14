@@ -19,7 +19,7 @@ public class Lucky_Numbers {
 
         for(int i = start; i <= end; i++){
             if(isLucky(i)) {
-                System.out.println(i);
+                System.out.print(i + " ");
                 count++;
             }
         }
