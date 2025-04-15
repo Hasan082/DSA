@@ -1,4 +1,4 @@
-
+// https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/E
 import java.util.Scanner;
 
 public class Hady_Rides_the_Train {
