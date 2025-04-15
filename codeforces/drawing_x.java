@@ -1,4 +1,4 @@
-// https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/B
+// https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/
 
 import java.util.Arrays;
 import java.util.Scanner;
