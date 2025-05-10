@@ -1,0 +1,1 @@
+# https://www.geeksforgeeks.org/problems/majority-element-1587115620/1?page=1&company=Amazon&sortBy=submissions
